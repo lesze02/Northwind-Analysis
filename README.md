@@ -4,7 +4,7 @@ Interaktywny dashboard sprzedażowy zbudowany na bazie danych Northwind, przedst
 
 ---
 
-## 📸 Podgląd
+## Podgląd
 
 ### Overview
 ![Overview](screenshots/overview.png)
@@ -30,12 +30,13 @@ Interaktywny dashboard sprzedażowy zbudowany na bazie danych Northwind, przedst
 
 **4. Time Analysis** - analiza czasowa: porównanie sprzedaży rok do roku (YoY), trend miesięczny oraz tabela miesięczna.
 
-> ⓘ Dane za rok 1998 obejmują okres styczeń-maj.
 
 ---
 
-## 🗄️ Źródło danych
+## Źródło danych
 
 Dane pochodzą z lokalnej bazy **PostgreSQL** zawierającej dataset Northwind - przykładową bazę danych reprezentującą operacje sprzedażowe fikcyjnej firmy handlowej.
 
 Dane zostały zaimportowane do Power BI za pomocą własnych zapytań SQL tworzących model w schemacie gwiazdy (star schema).
+
+![Star Schema](screenshots/star_schema.png)
